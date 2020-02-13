@@ -66,6 +66,7 @@
     <Compile Include="Assets\deleteobject.cs" />
     <Compile Include="Assets\movement.cs" />
     <Compile Include="Assets\playermovement.cs" />
+    <Compile Include="Assets\scripts\MaterialEditor.cs" />
     <Compile Include="Assets\spawning.cs" />
     <Reference Include="Unity.XR.Management">
       <HintPath>C:/Users/trebr/OneDrive/Desktop/Kanji/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
