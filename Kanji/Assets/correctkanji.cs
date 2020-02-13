@@ -20,10 +20,12 @@ public class correctkanji : MonoBehaviour
         if (col.tag== "correct")
         {
             Debug.Log("this is a correct kanji");
+            Destroy(col.gameObject);
         }
         else if(col.tag == "incorrect")
         {
             Debug.Log("this is an incorrect kanji");
+            Destroy(col.gameObject);
         }
     }
 }
